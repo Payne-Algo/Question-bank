@@ -1,8 +1,8 @@
-# base law
+# base law Time O(n^3), Memory O(1)
 Triple cycle
 pass
 
-# other
+# other law Time O(n^2), Memory O(1)
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()

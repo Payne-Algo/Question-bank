@@ -1,4 +1,4 @@
-# Violence
+# Violence Time O(n), Memory O(1)
 '''
 for loop -> i
     for loop -> j 
@@ -9,7 +9,7 @@ for i in range(len(nums)):
         if  nums[i] + nums[j] == target:
             return i, j
 
-# Otherwise
+# Otherwise Time O(n), Memory O(1)
 # ∵ a + b = target 
 # ∴ a = target - b
 for i in range(len(nums)):
@@ -19,7 +19,7 @@ for i in range(len(nums)):
             if i != j:
                 return i, j
 
-# Hash 
+# Hash  Time O(n), Memory O(n)
 dic = {} # Dictionary
 for i in range(len(nums)):
     a = target - nums[i] # 数
