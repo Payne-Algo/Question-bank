@@ -1,9 +1,0 @@
-# recursion Time O(n), Memory O(1)
-
-# Simple dynamic recursion  Time O(n), Memory O(1)
-now, next = 0, 1
-        for _ in range(n + 1):
-            now, next = next, now + next
-        return now
-
-# Math Time O(n), Memory O(1)
