@@ -14,10 +14,8 @@ for i in range(len(nums)):
 # ∴ a = target - b
 for i in range(len(nums)):
         a = target - nums[i]
-        if a in nums:
-            j = nums.index(a)
-            if i != j:
-                return i, j
+        if a in nums and nums.index(a) != i:
+            return i, nums.index(a)
 
 # Hash  Time O(n), Memory O(n)
 dic = {} # Dictionary
