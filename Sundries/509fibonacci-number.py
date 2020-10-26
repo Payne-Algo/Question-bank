@@ -56,7 +56,8 @@ class Solution2:
 # 法三 数组DP
 class Solution3:
     def fib(self, N: int) -> int:
-        if N < 2: return N
+        if N < 2:
+            return N
         dp = [0 for _ in range(N + 1)]
         dp[0], dp[1] = 0, 1
         for i in range(2, N + 1):
