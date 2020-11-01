@@ -58,28 +58,28 @@ class Solution3:
 #  *     Right *TreeNode
 #  * }
 #  */
-func preorderTraversal(root *TreeNode) (vals []int) {
-    var preorder func(*TreeNode)
-    preorder = func (node *TreeNode) {
-        if node == nil {return}
-        vals = append(vals, node.Val)
-        preorder(node.Left)
-        preorder(node.Right)
-    }
-    preorder(root)
-    return
-}
+# func preorderTraversal(root *TreeNode) (vals []int) {
+#     var preorder func(*TreeNode)
+#     preorder = func (node *TreeNode) {
+#         if node == nil {return}
+#         vals = append(vals, node.Val)
+#         preorder(node.Left)
+#         preorder(node.Right)
+#     }
+#     preorder(root)
+#     return
+# }
 
-func inorderTraversal(root *TreeNode) []int {
-	ret := []int{}
-	st(root, &ret)
-	return ret
-}
+# func inorderTraversal(root *TreeNode) []int {
+# 	ret := []int{}
+# 	st(root, &ret)
+# 	return ret
+# }
 
-func st(root *TreeNode, ret *[]int) {
-	if root == nil {return}
-	st(root.Left, ret)
-	*ret = append(*ret, root.Val)
-	st(root.Right, ret)
-}
+# func st(root *TreeNode, ret *[]int) {
+# 	if root == nil {return}
+# 	st(root.Left, ret)
+# 	*ret = append(*ret, root.Val)
+# 	st(root.Right, ret)
+# }
 
