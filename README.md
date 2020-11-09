@@ -1,4 +1,5 @@
 # Question-bank
+
 This is the answer to all the questions
 
 >I believe you and I can benefit a lot
@@ -10,8 +11,6 @@ This is the answer to all the questions
 * Get a better offer，Higher pay，Faster growth
 
 * 。。。
-
-
 
 It's a pleasure to learn algorithms and data structures with you
 
