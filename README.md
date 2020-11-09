@@ -2,7 +2,7 @@
 
 This is the answer to all the questions
 
->I believe you and I can benefit a lot
+>I believe you and me can benefit a lot
 
 * Thinking and methods of solving problems
 
